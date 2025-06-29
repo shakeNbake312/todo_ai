@@ -1,0 +1,14 @@
+a# 1) Ignore everything in the root folder
+/*
+
+# 2) Un-ignore this root .gitignore file (so include this root .gitignore)
+!.gitignore
+
+# 3) Un-ignore (i.e. include) only the following subfolders
+!/backend/
+!/frontend/
+
+# Ignore misc
+.DS_Store
+.env
+.env*
